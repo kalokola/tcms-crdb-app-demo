@@ -95,11 +95,11 @@ $ touch Procfile && nano Procfile
 ```bash
 # get python version
 $ python3 --version
- 3.10.6
+ 3.8.13
 
 $ touch runtime.txt && nano runtime.txt
 # add this line
-python-3.10.6
+python-3.8.13
 ```
 
 [**Step 4**]: Create a requrements.txt file.
