@@ -95,11 +95,11 @@ $ touch Procfile && nano Procfile
 ```bash
 # get python version
 $ python3 --version
- 3.8.10
+ 3.10.6
 
 $ touch runtime.txt && nano runtime.txt
 # add this line
-python-3.8.10
+python-3.10.6
 ```
 
 [**Step 4**]: Create a requrements.txt file.
@@ -121,6 +121,8 @@ python-3.8.10
 NB: When your app works correclty and you test all endpoints remember to turn DEBUG to 1 or True to secure your live application.
 
 [**Step 6**]: Your app is finally deployed, you can access it at [tcms-apis]()
+
+
 
 ## All the credit
 
