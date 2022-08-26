@@ -105,7 +105,7 @@ python-3.10.6
 [**Step 4**]: Create a requrements.txt file.
 - This holds all the necessary packages for your django app
 ```bash
-    # activate environment
+    # activate virtual environment
     (enviro)$ pip3 freeze > requiremnts.txt
 ```
 [**Step 5**]: Finally pushing the code to Heroku
