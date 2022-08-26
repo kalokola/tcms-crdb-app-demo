@@ -31,7 +31,6 @@ def updateNote(request,pk):
     serializer = NoteSerializer(note, data=request.data)
     if serializer.is_valid():
         serializer.save()
-
     return Response(serializer.data)
 
 @api_view(["DELETE"])

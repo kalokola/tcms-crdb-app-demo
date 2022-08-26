@@ -40,7 +40,11 @@ INSTALLED_APPS = [
 
     'apis.apps.ApisConfig',
     'rest_framework',
-    'corsheaders'
+    'corsheaders',
+    'rest_framework.authtoken',
+    'rest_auth',
+    'rest_auth.registration',
+
 ]
 
 MIDDLEWARE = [
@@ -56,7 +60,16 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
-
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',
+    ],
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.TokenAuthentication',
+    ],
+    }
 ROOT_URLCONF = 'engine.urls'
 
 TEMPLATES = [
@@ -119,6 +132,9 @@ USE_I18N = True
 
 USE_TZ = True
 
+# MAIL
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend' # new
+SITE_ID = 1
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
