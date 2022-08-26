@@ -19,6 +19,7 @@ Django Session for [UDICTI TCMS-CRDB BootCamp 2022](https://udicti.udsm.ac.tz/)
     - Installing and understanding the Django Rest Framework. ✔️
     - Implementing HTTP methods (GET POST DELETE & PUT) ✔️
     - Deploying the project on Heroku ✔️
+    - Django REST AUTHENTICATION [Bonus]
 
 ### How To use the Source Code
 
