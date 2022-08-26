@@ -120,7 +120,7 @@ python-3.10.6
 
 NB: When your app works correclty and you test all endpoints remember to turn DEBUG to 1 or True to secure your live application.
 
-[**Step 6**]: Your app is finally deployed, you can access it at [tcms-apis]()
+[**Step 6**]: Your app is finally deployed, you can access it at [tcms-djangoapis](https://tcms-djangoapis.herokuapp.com/)
 
 
 
