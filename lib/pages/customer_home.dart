@@ -28,7 +28,7 @@ class _CustomerHomePageState extends State<CustomerHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-        title: const Text("CRDB"),
+        title: const Text("Bank ABC"),
         actions: <Widget>[
           IconButton(
             icon: const Icon(Icons.arrow_back_ios),
